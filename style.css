@@ -1,0 +1,48 @@
+html {
+  color: #FFE81F;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  @media (max-width: 500px) {
+    font-size: 20px;
+  }
+}
+
+body {
+  background-image: url("https://i.pinimg.com/originals/9d/60/89/9d608920445f4edeee286646f8b5510e.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+img {
+  width: 250px;
+}
+
+input {
+  border-radius: 5px;
+}
+
+ul {
+  margin: 20px;
+  list-style: none;
+}
+
+li{
+    perspective: 200px;
+    margin: 30px;
+}
+p {
+      transform: rotateX(30deg);
+    }
+
+footer {
+  font-size: 0.6rem;
+  margin-top: 20px;
+}
